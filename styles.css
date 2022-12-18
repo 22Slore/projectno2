@@ -1,0 +1,120 @@
+/* Header and Footer as well as Flex */
+section {
+    display: flex;
+  }
+
+img {
+    border-radius: 50%;
+    padding: 5px;
+    width: 150px;
+}
+
+.header {
+    padding: 60px;
+    text-align: center;
+    background: rgb(37, 209, 209);
+    color: white;
+    font-size: 30px;
+}
+
+.footer {
+    padding: 60px;
+    text-align: center;
+    background: rgb(26, 214, 198);
+    color: white;
+    font-size: 30px;
+}
+
+text stylization and format
+.center {
+    text-align: center;
+    border: 3px solid green;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+}
+
+/* {
+ box-sizing: borer-box; 
+}  */
+
+/* div {
+    height: 100%;
+    width: 100%;
+    padding:100%;
+} */
+
+#blue {
+    width: 100%;
+    height: auto;
+}
+
+.center {
+    text-align: center;
+}
+
+main {
+    text-align: center;
+}
+
+/* MY WORK SECTION */
+ul.relative {
+    position: relative;
+    left: 30px;
+    border: 3px solid #73AD21;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+/* 
+  {  
+    width: auto;  
+    text-align: center;  
+    padding: 15px;  
+    border: 3px solid red;  
+    }   */
+
+
+    img {
+      max-width: 100%; 
+      height: auto;
+      
+    }
+
+    #Red {
+        Width: 200%;
+    }
+
+    #section1 {
+        align-self:center;
+        text-align: center;
+    }
+
+    .section4 {
+
+        float: right;
+        width: 300px;
+        border: 3px solid #73AD21;
+        padding: 10px;
+        
+    }
+    
+    span + span {
+        margin-left: 10px;
+    }
+
+.aboutme {
+    text-align: center;
+}
